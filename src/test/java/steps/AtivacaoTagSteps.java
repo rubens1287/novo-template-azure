@@ -120,7 +120,6 @@ public class AtivacaoTagSteps {
 
     @Entao("^sera apresentado a ativacao efetuada com sucesso$")
     public void seraApresentadoAAtivacaoEfetuadaComSucesso() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+  
     }
 }
