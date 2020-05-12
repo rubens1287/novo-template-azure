@@ -20,10 +20,8 @@ public class Hook extends DriverManager {
 
         ConfigFactory.setProperty("env", System.getProperty("env"));
 
-
         WebDriver driver = DriverFactory.createInstance(System.getProperty("browser"));
         driver.manage().window().maximize();
-        driver.get(configuration.url());
         DriverManager.setDriver(driver);
     }
 
